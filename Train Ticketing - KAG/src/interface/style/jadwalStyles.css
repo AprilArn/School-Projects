@@ -1,0 +1,88 @@
+/* ----------------------------ERROR------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/jadwal.png");
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #c0d033;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+
+table th {
+    background-color: #c0d033;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    opacity: 92.5%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form select,
+form input[type="number"],
+form input[type="submit"] {
+    width: 101.5%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #98a711;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color:#697218;
+}
+
+form table {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+form table select,
+form table input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form table input[type="submit"] {
+    margin-top: 10px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+form table input[type="submit"]:hover {
+    background-color: #333;
+}

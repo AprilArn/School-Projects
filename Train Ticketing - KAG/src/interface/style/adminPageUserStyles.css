@@ -1,0 +1,122 @@
+/* body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("../assets/tiket.jpg");
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Tiket Kereta */
+  h1 {
+    text-align: center;
+    margin-top: 20px;;
+  }
+  
+  /* Tiket Anda */
+  p {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  /* Tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tabel Header */
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Tabel Header */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Tabel Baris - Genap */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Tabel Baris - Hover */
+  tr:hover {
+    background-color: #e2e2e2;
+  }
+  
+  /* button */
+  button {
+    padding: 8px 16px;
+    margin-right: 5px;
+    background-color: #c6ae26;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* button - Hover */
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* button - Hover */
+  button:hover, a:hover {
+    background-color: #a38e1f;
+  }
+  
+  /* button - Focus */
+  button:focus, a:focus { /* Remove outline */
+    outline: none;
+  }
+  
+  .next-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .next-button button {
+    margin-right: 10px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 15%;
+    border-radius: 8px;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .print-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  @media print {
+    body {
+      background-color: #fff;
+    }
+    .container {
+      box-shadow: none;
+      margin: 0;
+    }
+    .print-button {
+      display: none;
+    }
+  }
+  
